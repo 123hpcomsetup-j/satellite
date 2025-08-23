@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { DM_Sans, Space_Grotesk } from "next/font/google"
-import "./globals.css"
+import "../styles/globals.css"
 import { GoogleAnalytics } from "@/components/google-analytics"
 
 const dmSans = DM_Sans({
