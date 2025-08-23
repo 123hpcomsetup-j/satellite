@@ -1,12 +1,18 @@
 declare global {
   interface Window {
     gtag: (command: string, targetId: string, config?: any) => void
+    gtag_report_conversion: (url?: string) => boolean
     dataLayer: any[]
   }
 }
 
 // Track call events for Google Ads conversion tracking
 export const trackCallEvent = (source: string) => {
+  if (typeof window !== "undefined" && window.gtag_report_conversion) {
+    // Use the Google Ads conversion tracking function
+    window.gtag_report_conversion()
+  }
+
   // Google Analytics 4 event tracking
   if (typeof window !== "undefined" && window.gtag) {
     window.gtag("event", "phone_call_clicked", {
@@ -17,10 +23,9 @@ export const trackCallEvent = (source: string) => {
     })
   }
 
-  // Google Ads conversion tracking
   if (typeof window !== "undefined" && window.gtag) {
     window.gtag("event", "conversion", {
-      send_to: "AW-CONVERSION_ID/CONVERSION_LABEL", // Replace with actual conversion ID
+      send_to: "AW-17312772339/cJHXCJrJo4wbEPPhr79A",
       event_callback: () => {
         console.log("[v0] Call conversion tracked from:", source)
       },

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Get reliable high-speed satellite internet with Starlink. No contracts, fast installation, and 24/7 support.",
     type: "website",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -45,7 +45,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
-        <GoogleAnalytics gaId="GA_MEASUREMENT_ID" gtagId="AW-CONVERSION_ID" />
+        <GoogleAnalytics gaId="AW-17312772339" gtagId="AW-17312772339" />
       </body>
     </html>
   )
