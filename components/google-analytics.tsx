@@ -8,8 +8,8 @@ interface GoogleAnalyticsProps {
 export function GoogleAnalytics({ gaId, gtagId }: GoogleAnalyticsProps) {
   return (
     <>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17312772339" strategy="afterInteractive" />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17312772339"  />
+
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
