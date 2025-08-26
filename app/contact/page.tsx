@@ -48,7 +48,7 @@ export default function ContactPage() {
                         href="mailto:info@satelliteinternet.com"
                         className="text-primary hover:text-primary/80 font-semibold"
                       >
-                        info@satelliteinternet.com
+                        info@satelliteinternet.it.com
                       </a>
                     </div>
                   </div>
