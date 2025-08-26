@@ -6,6 +6,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
+import { trackCall } from "@/lib/analytics"
 
 export default function HomePage() {
   return (
