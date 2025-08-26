@@ -176,6 +176,15 @@ var sc_security="36fb2679";
 src="https://www.statcounter.com/counter/counter.js"
 async></script>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17312772339">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17312772339');
+</script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
