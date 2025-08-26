@@ -65,7 +65,7 @@ export function HeroSection() {
                 className="text-lg font-semibold px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
               >
                 <MapPin className="mr-2 h-5 w-5" />
-                Check Availability
+                Call To Check Availability
               </Button>
             </div>
 
