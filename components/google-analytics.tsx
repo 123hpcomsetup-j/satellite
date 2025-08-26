@@ -8,7 +8,7 @@ interface GoogleAnalyticsProps {
 export function GoogleAnalytics({ gaId, gtagId }: GoogleAnalyticsProps) {
   return (
     <>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17312772339"  />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17312772339" strategy="afterInteractive" />
 
         {`
           window.dataLayer = window.dataLayer || [];
