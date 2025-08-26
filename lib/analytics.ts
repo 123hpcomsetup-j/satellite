@@ -62,7 +62,7 @@ export const trackFormSubmission = (formType: string, formData?: any) => {
 // Track page views with UTM parameters
 export const trackPageView = (url: string) => {
   if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("config", "GA_MEASUREMENT_ID", {
+    window.gtag("config", "AW-17312772339", {
       page_location: url,
       custom_map: {
         utm_source: "traffic_source",
