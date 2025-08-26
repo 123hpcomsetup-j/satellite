@@ -166,8 +166,7 @@ export default function RootLayout({
             })();
           `}
         </Script>
-        <!-- Statcounter code for star
-http://www.starinternetca.site/ on Hostinger -->
+     
 <script type="text/javascript">
 var sc_project=13161983; 
 var sc_invisible=1; 
@@ -176,7 +175,7 @@ var sc_security="36fb2679";
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"
 async></script>
-<!-- End of Statcounter Code -->
+
       </head>
       <body className={inter.className}>{children}</body>
     </html>
