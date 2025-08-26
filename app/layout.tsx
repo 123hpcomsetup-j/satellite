@@ -175,7 +175,6 @@ var sc_security="36fb2679";
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"
 async></script>
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17312772339">
 </script>
 <script>
