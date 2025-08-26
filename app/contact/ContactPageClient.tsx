@@ -61,9 +61,9 @@ export default function ContactPageClient() {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Address</h3>
                       <p className="text-muted-foreground">
-                        123 Satellite Way
+                        203 Satellite Way
                         <br />
-                        Tech City, TC 12345
+                        Tech City, TC 19808
                       </p>
                     </div>
                   </div>
