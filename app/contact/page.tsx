@@ -60,7 +60,7 @@ export default function ContactPage() {
                       <p className="text-muted-foreground">
                         123 Satellite Way
                         <br />
-                        Tech City, TC 12345
+                        Tech City, TC 19808
                       </p>
                     </div>
                   </div>
