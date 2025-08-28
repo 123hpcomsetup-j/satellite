@@ -167,23 +167,7 @@ export default function RootLayout({
           `}
         </Script>
 
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-17312772339/UgFdCNKnnIobEPPhr79A'});
-</script>
 
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-17312772339/UgFdCNKnnIobEPPhr79A',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
 
 <script type="text/javascript">
 var sc_project=13161983; 
